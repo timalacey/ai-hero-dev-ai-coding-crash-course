@@ -11,7 +11,7 @@ Issues and PRDs for this repo live as GitHub issues. Use the `gh` CLI for all op
 - **Apply / remove labels**: `gh issue edit <number> --add-label "..."` / `--remove-label "..."`
 - **Close**: `gh issue close <number> --comment "..."`
 
-Infer the repo from `git remote -v` — `gh` does this automatically when run inside a clone.
+The repo is `timalacey/ai-hero-dev-ai-coding-crash-course` (the `origin` remote). `gh` infers it automatically when run inside this clone — don't pass `-R` for any other repo.
 
 ## Pull requests as a triage surface
 
